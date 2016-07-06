@@ -8,7 +8,9 @@
 
 @import 'colors.css';
 
-/* Custom media queries */
+/* 
+ * Custom media queries
+ */
 /*
 @custom-media --breakpoint-sm (min-width: 40em);
 @custom-media --breakpoint-md (min-width: 52em);
@@ -24,28 +26,6 @@ body {
   margin: 0;
   color: #111;
   background-color: #fff;
-}
-
-header {
-  height: 60vh;
-}
-
-.center-text {
-  text-align: center;
-}
-
-code, pre, samp, .mono {
-  font-family: 'Roboto Mono', monospace;
-}
-
-a:not(.btn) {
-  color: #08b;
-  text-decoration: none;
-  background-image: linear-gradient(transparent, transparent 93.75%, #0be 93.75%)
-}
-
-a:not(.btn):hover {
-  background-image: linear-gradient(transparent, transparent 87.5%, #0be 87.5%)
 }
 
 h1, h2, h3,
@@ -87,6 +67,10 @@ hr {
   border-bottom: 1px solid;
 }
 
+/*
+ * Buttons 
+ */
+
 .btn {
   font-family: inherit;
   font-size: .75rem;
@@ -102,4 +86,25 @@ hr {
 
 .btn:hover {
   box-shadow: inset 0 0 0 999px rgba(0, 0, 128, .25);
+}
+
+/*
+ * Link
+ */
+.link {
+  color: #08b;
+  text-decoration: none;
+  background-image: linear-gradient(transparent, transparent 93.75%, #0be 93.75%)
+}
+
+a {
+  cursor: pointer;
+}
+
+a:hover {
+  background-image: linear-gradient(transparent, transparent 87.5%, #0be 87.5%)
+}
+
+.tile {
+  min-width: 120px;
 }
