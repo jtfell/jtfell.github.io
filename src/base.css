@@ -107,5 +107,6 @@ a:hover {
 
 .tile {
   min-width: 130px;
+  max-width: 250px;
   background: #f1f1f1;
 }
