@@ -905,7 +905,7 @@ hr{
   display:inline-block;
   padding:.5rem .75rem;
   color:#fff;
-  background-color:#08b;
+  background-color:black;
   border:0;
   border-radius:2px;
 }
@@ -926,12 +926,14 @@ a{
 }
 
 a:hover{
-  background-image:-webkit-linear-gradient(transparent, transparent 87.5%, #0be 87.5%);
-  background-image:linear-gradient(transparent, transparent 87.5%, #0be 87.5%)
+  background-image:-webkit-linear-gradient(transparent, transparent 87.5%, #fbe 87.5%);
+  background-image:linear-gradient(transparent, transparent 87.5%, #fbe 87.5%)
 }
 
-.tile{
-  min-width:130px;
-  max-width:250px;
-  background:#f1f1f1;
+.over-yellow{
+  color:hsla(52, 100%, 20%, 1.0);
+}
+
+.over-navy{
+  color:hsla(210, 100%, 75%, 1.0);
 }
