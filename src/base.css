@@ -70,7 +70,6 @@ hr {
 /*
  * Buttons 
  */
-
 .btn {
   font-family: inherit;
   font-size: .75rem;
@@ -89,29 +88,8 @@ hr {
 }
 
 /*
- * Link
+ * Project Tiles
  */
-.link {
-  color: #08b;
-  text-decoration: none;
-  background-image: linear-gradient(transparent, transparent 93.75%, #0be 93.75%)
-}
-
-a {
-  cursor: pointer;
-}
-
-a:hover {
-  background-image: linear-gradient(transparent, transparent 87.5%, #fbe 87.5%)
-}
-
-/*
- * Colours
- */
-.over-yellow {
-  color: hsla(52, 100%, 20%, 1.0);
-}
-
-.over-navy {
-  color: hsla(210, 100%, 75%, 1.0);
+#projects .col-5 {
+  max-width: 14rem;
 }
