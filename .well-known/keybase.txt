@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/jtfell
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jtfell.github.io
+  * I am jtfell (https://keybase.io/jtfell) on keybase.
+  * I have a public key ASDgcNU_Bf-9CwPZNlSSVwZ8jc5tJTOfuU7TPut4LgD05Ao
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120e070d53f05ffbd0b03d936549257067c8dce6d25339fb94ed33eeb782e00f4e40a",
+      "host": "keybase.io",
+      "kid": "0120e070d53f05ffbd0b03d936549257067c8dce6d25339fb94ed33eeb782e00f4e40a",
+      "uid": "991ee7aa7f239233f8205c1f5c58c019",
+      "username": "jtfell"
+    },
+    "merkle_root": {
+      "ctime": 1555505834,
+      "hash": "1277b6888817deb38a9ed8aeac7c97469ec70dea849b5b5d61c4679ccde06de897044dd0838f7cebca1c504276b11151225e64e7c70126f75e2e7bf34e69503a",
+      "hash_meta": "0158c28ff228306c2a92d9cd0c649d4d9fe53307d0659666f652b8bc10a43519",
+      "seqno": 5190644
+    },
+    "service": {
+      "entropy": "RBBKprP1JXuWlVq7qicRnKNh",
+      "hostname": "jtfell.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.2.2"
+  },
+  "ctime": 1555505843,
+  "expire_in": 504576000,
+  "prev": "539ab05b4944118d9c5a9bbac24107887120cbbe9c17b07e974aabf0bf56de2e",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg4HDVPwX/vQsD2TZUklcGfI3ObSUzn7lO0z7reC4A9OQKp3BheWxvYWTESpcCB8QgU5qwW0lEEY2cWpu6wkEHiHEgy76cF7B+l0qr8L9W3i7EIGZt5AJ6sXYbpXbTLiHoaTmhES0EcUyaUwq2Bu/d19loAgHCo3NpZ8RAolCOlKdLU0H8b5bO8PbFKFXO+sF3pviHTFT0642Y+WX5xHF6UmTCj3nmtT5DJvNQGeU3nrLrT9oCt4cx1kDiDKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIF6V542+ZHAZTcj2r82HMH83qYzzYodqX26r6hUc6WC4o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jtfell
+
+==================================================================
