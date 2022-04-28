@@ -85,3 +85,14 @@ hr {
 .btn:hover {
   box-shadow: inset 0 0 0 999px rgba(0, 0, 128, .25);
 }
+
+img {
+  max-width: 100%;
+}
+
+.project-label {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  text-align: center;
+  padding-top: 1rem;
+}
