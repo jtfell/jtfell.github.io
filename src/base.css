@@ -96,3 +96,8 @@ img {
   text-align: center;
   padding-top: 1rem;
 }
+
+.project {
+  border: solid 3px #0074D9;
+  padding: 1rem;
+}
