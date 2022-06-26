@@ -18,13 +18,58 @@
 
 * { box-sizing: border-box }
 
+@font-face {
+  font-family: 'Inter var';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: block;
+  src: url(/fonts/Inter-roman.latin.var.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Inter var';
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: block;
+  src: url(/fonts/Inter-italic.latin.var.woff2) format('woff2');
+  font-named-instance: 'Italic';
+}
+
 body {
-  /* font-family: 'Roboto Mono', sans-serif; */
-  font-family: Roboto, sans-serif;
-  line-height: 1.625;
+  font-family: 'Inter var', system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-feature-settings: 'case' 1, 'cpsp' 1, 'dlig' 1, 'cv01' 1, 'cv02',
+    'cv03' 1, 'cv04' 1;
+  font-variation-settings: 'wght' 450;
+  font-variant: common-ligatures contextual;
+  letter-spacing: -0.02em;
+}
+
+
+body {
   margin: 0;
-  color: #111;
-  background-color: #fff;
+  background-color: #ffffff;
+  color: #444444;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  font-size: 14px
+}
+
+.h0 {
+    font-variation-settings: "wght" 850;
+    border: solid #9dfabb;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 0 2rem;
+
+    color: #111827;
+    font-weight: 800;
+    font-size: 2.25em;
+    margin-top: 0;
+    margin-bottom: 0.8888889em;
+    line-height: 1.1111111;
 }
 
 h1, h2, h3,
@@ -66,37 +111,6 @@ hr {
   border-bottom: 1px solid;
 }
 
-/*
- * Buttons 
- */
-.btn {
-  font-family: inherit;
-  font-size: .75rem;
-  font-weight: 700;
-  text-decoration: none;
-  display: inline-block;
-  padding: .5rem .75rem;
-  color: #fff;
-  background-color: black;
-  border: 0;
-  border-radius: 2px;
-}
-
-.btn:hover {
-  box-shadow: inset 0 0 0 999px rgba(0, 0, 128, .25);
-}
-
-img {
-  max-width: 100%;
-}
-
-.project-label {
-  text-transform: uppercase;
-  letter-spacing: .1em;
-  text-align: center;
-  padding-top: 1rem;
-}
-
-.project {
-  padding: 1rem;
+.list a {
+  color: #37a081
 }
