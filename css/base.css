@@ -904,7 +904,7 @@ body{
 
 .h0{
     font-variation-settings:"wght" 850;
-    border:solid #9dfabb;
+    border:solid #e7e7e7;
     width:-webkit-fit-content;
     width:-moz-fit-content;
     width:fit-content;
@@ -957,6 +957,6 @@ hr{
   border-bottom:1px solid;
 }
 
-.list a{
+a{
   color:#37a081
 }
