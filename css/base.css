@@ -904,11 +904,9 @@ body{
 
 .h0{
     font-variation-settings:"wght" 850;
-    border:solid #e7e7e7;
     width:-webkit-fit-content;
     width:-moz-fit-content;
     width:fit-content;
-    padding:0 2rem;
 
     color:#111827;
     font-weight:800;
